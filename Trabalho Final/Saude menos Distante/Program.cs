@@ -142,7 +142,7 @@ namespace Saude_menos_Distante
                                 string idMotorista = Console.ReadLine();
 
                                 //Instaciação do relatório de colaboradores, imprime as informações de cada colaborador da equipa
-                                RelatorioConsultas.RelatConsultas(utente1, triagem, utente2, utente3, utente4, utente5, utente6, utente7, triagem2, triagem3, triagem4, triagem5, triagem6, triagem7);
+                                RelatorioColaboradores.RelatColab(medico, enfermeira, administrativo, motorista);
 
                             }
                             else if (relatorio == 2)
